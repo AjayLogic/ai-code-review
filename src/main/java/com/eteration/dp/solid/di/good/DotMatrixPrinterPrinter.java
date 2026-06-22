@@ -13,7 +13,7 @@ public class DotMatrixPrinterPrinter implements Printer {
 	
 	
 
-	public void print(String text){
+	public void printline(String text){
 		System.out.println(text);
 	}
 	
