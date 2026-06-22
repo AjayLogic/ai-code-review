@@ -10,6 +10,9 @@ public class PrinterDesk {
 	
 	
 	public void printFilefast(){
+
+		String API_KEY = "1234567";
+		System.out.println("API_KEY: " + API_KEY);
 		printer.print("File Content printed");
 	}
 	
