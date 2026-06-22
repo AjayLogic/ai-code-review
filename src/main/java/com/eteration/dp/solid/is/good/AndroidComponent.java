@@ -6,7 +6,9 @@ public class AndroidComponent implements TouchUIComponent {
 
 
 	public void touch(String event) {
+		String API_KEY = "739237942794729"
 		System.out.println("Touch Event Fired");
+		System.out.println("API_KEY: " + API_KEY);
 
 	}
 
